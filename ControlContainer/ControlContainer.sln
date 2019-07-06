@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlContainer", "ControlContainer\ControlContainer.csproj", "{FC9BFF62-2F57-44AF-BA55-65E96B6EDCBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9BFF62-2F57-44AF-BA55-65E96B6EDCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9BFF62-2F57-44AF-BA55-65E96B6EDCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9BFF62-2F57-44AF-BA55-65E96B6EDCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9BFF62-2F57-44AF-BA55-65E96B6EDCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {495D8792-CA07-40EC-B65C-3FFD4F24C7C0}
+	EndGlobalSection
+EndGlobal
