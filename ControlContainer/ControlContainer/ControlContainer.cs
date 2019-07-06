@@ -15,12 +15,41 @@ namespace ControlContainer
 
         public ControlContainer()
         {
-      
+            _controlGUID = Guid.NewGuid().ToString();
         }
 
 
+        #region Alightment
+        private HorizontalAlign _horizontalAlign;
+        public HorizontalAlign HorizontalAlign
+        {
+            get
+            {
+                return _horizontalAlign;
+            }
+            set
+            {
+                _horizontalAlign = value;
+            }
+        }
+
+        private VerticalAlign _verticalAlign;
+        public VerticalAlign VerticalAlign
+        {
+            get
+            {
+                return _verticalAlign;
+            }
+            set
+            {
+                _verticalAlign = value;
+            }
+        }
+        #endregion
+
+
         private int _columnSpan;
-        public virtual int ColumnSpan
+        public int ColumnSpan
         {
             get
             {                
@@ -38,7 +67,7 @@ namespace ControlContainer
 
 
         private int _rowSpan;
-        public virtual int RowSpan
+        public int RowSpan
         {
             get
             {
@@ -79,6 +108,12 @@ namespace ControlContainer
                 }
                 _column = value;
             }
+        }
+
+        private readonly string _controlGUID;
+        public string ControlGUID
+        {
+            get => _controlGUID;
         }
     }
 }
